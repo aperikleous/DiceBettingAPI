@@ -1,0 +1,29 @@
+{
+  "name": "dicebettingapi",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
+  },
+  "keywords": [],
+  "author": "Alexandros Perikleous <alexperikleous@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/pg": "^8.6.3",
+    "apollo-server": "^3.6.1",
+    "dotenv": "^10.0.0",
+    "graphql": "^16.2.0",
+    "pg": "^8.7.1",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "sequelize-cli": "^6.3.0",
+    "ts-node": "^10.4.0",
+    "ts-node-dev": "^1.1.8",
+    "typescript": "^4.5.4"
+  }
+}
